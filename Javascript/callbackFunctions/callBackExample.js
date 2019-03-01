@@ -1,3 +1,7 @@
+// A Callback is a function executed at some point in the future,
+// Usually after a user action or a period of time
+
+
 const person = {
     name: 'Andrew Chalkley',
     role: 'JavaScript Teacher'
