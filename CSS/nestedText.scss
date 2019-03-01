@@ -1,0 +1,19 @@
+/*
+Sass allows you to do shorthand namespacing for things like text:
+*/
+
+.button {
+    text: {
+        // The word "text" is not repeated.
+      align: center;
+      decoration: none;
+      transform: uppercase;
+    }
+  }
+
+// Above will compile to
+.button {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }

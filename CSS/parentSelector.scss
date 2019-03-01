@@ -1,0 +1,14 @@
+/*
+Sass lets you reference the parent selector for pseudo selectors
+*/
+
+$color-primary: #99badd;
+$color-secondary: #fff;
+
+a {
+    color:$color-primary;
+    text-decoration: none;
+    &:hover{
+        color: $color-secondary;
+    }
+}

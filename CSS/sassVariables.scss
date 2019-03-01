@@ -1,0 +1,10 @@
+// Sass can store Variables
+
+$color-primary: #278da4;
+$font-stack-primary: 'Raleway', sans-serif;
+
+
+.btn-info{
+    background-color: $color-primary;
+    font-family: $font-stack-primary;
+}

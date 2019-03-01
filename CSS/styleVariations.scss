@@ -1,0 +1,24 @@
+/*
+If several styles have something in common, they can be lumped together in sass using the ampersand "&"
+*/
+
+.btn {
+    color: red;
+    border: 1 px solid blue;
+    width: 25px;
+    &-info {
+        color: darkorange;
+    }
+}
+
+// The sass above will become the following css:
+.btn {
+    color: red;
+    border: 1 px solid blue;
+    width: 25px;
+}
+
+.btn-info {
+    color: darkorange;
+
+}

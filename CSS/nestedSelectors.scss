@@ -1,0 +1,19 @@
+// You can target elements within another element
+
+// This will target LI items within the main nav. 
+.main-nav {
+    margin-top: 1em;
+    li {
+        display: inline-block;
+        margin: 0 0.65em;
+    }
+}
+
+
+// Above will compile to the following:
+.main-nav {
+    margin-top: 1em;}
+    .main-nav li {
+        display: inline-block;
+        margin: 0 0.65em;
+    }
